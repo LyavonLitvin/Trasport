@@ -30,5 +30,6 @@ public class CargoLandTransport extends LandTransport implements Actions{
         if (cargo <= carryingCapacity)
         System.out.println("Грузовик загружен");
         else System.out.println("Вам нужен грузовик побольше");
+        System.out.println();
     }
 }
